@@ -2,9 +2,6 @@ program password
     implicit none
 
     integer :: i, j, k
-    character (len = 2) :: q,w,e,r,t,y,u,ii,o,p,a,s,d,f,g,h,jj,kk,l,z,x,c,v,b,n,m
-    character (len = 2) :: qm,wm,em,rm,tm,ym,um,iim,om,pm,am,sm,dm,fm,gm,hm,jjm,kkm,lm,zm,xm,cm,vm,bm,nm,mm
-    character (len = 20):: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, cero 
     character (len = 30) :: usuario 
     character (len = 25) :: servicio
     character, allocatable :: contrasena(:)
